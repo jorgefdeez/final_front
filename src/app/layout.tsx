@@ -27,7 +27,7 @@ export default function RootLayout({
       <body>
           <div className="MainContainer">
                 <div className="TitleContainer">
-                  <h1>Rick y Morty Web</h1>
+                  <h1 className="webName">Rick y Morty Web</h1>
                     {children}
                 </div>
             </div>

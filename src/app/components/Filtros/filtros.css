@@ -1,0 +1,37 @@
+.FiltrosContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.botonFiltroEstado{
+    background-color: purple;
+    color: black;
+    padding:10px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+    
+.botonFiltroEstado:hover{
+    background-color: aqua;
+}
+
+.botonInput{
+    background-color: purple;
+    color: black;
+    padding:10px;
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+.botonInput:hover{
+    background-color: aqua;
+}
+
+.input{
+    width: 70%;
+    padding: 10px 1px;
+    border: 4px solid purple;
+    border-radius: 10px;
+    font-size: 1rem;
+}

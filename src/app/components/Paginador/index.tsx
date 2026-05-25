@@ -10,7 +10,6 @@ const Paginador=(
 
     return(
         <div className="paginadorContainer">
-            {}
             {prev && <button 
             onClick={(e)=>{
                 setPage(page-1)
