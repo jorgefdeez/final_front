@@ -1,0 +1,19 @@
+.paginadorContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+
+.paginadorContainer button{
+    display: felx;
+    color: black;
+    background-color: chartreuse;
+    cursor: pointer;
+}
+
+.paginadorContainer button:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
