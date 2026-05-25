@@ -12,12 +12,12 @@ const CharacterComponente =({personaje}:{personaje: CharacterS}) =>{
             <p>Estado: {personaje.status}</p>
             <p>Genero: {personaje.gender}</p>
 
-             <button
+            <button
                 className="boton"
                 onClick={() => {
-                    router.push(`/character/${personaje.id}`);
+                        router.push(`/${personaje.id}`);
                 }}>
-              detalle
+            detalle
             </button>
         </div>
     )

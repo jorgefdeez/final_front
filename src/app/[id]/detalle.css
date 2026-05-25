@@ -1,0 +1,22 @@
+.containterDetalle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px 100px;
+    border-radius: 15px;
+}
+
+
+.botonVolver{
+    background-color: chartreuse;
+    color:black;
+    cursor: pointer;
+}
+
+.botonVolver:hover {
+    background-color: rgb(40, 193, 204);
+    color: black ;
+}
