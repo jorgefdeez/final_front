@@ -15,7 +15,7 @@ const CharacterComponente =({personaje}:{personaje: CharacterS}) =>{
             <button
                 className="boton"
                 onClick={() => {
-                        router.push(`/${personaje.id}`);
+                        router.push(`/character/${personaje.id}`);
                 }}>
             detalle
             </button>
