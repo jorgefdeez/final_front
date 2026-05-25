@@ -23,7 +23,7 @@ const getPersonajeById=()=>{
 
     return(
         <div className = "containterDetalle">
-            <h1>{personaje?.name}</h1>
+            <h1>Detalles de {personaje?.name}</h1>
             <p>Genero: {personaje?.gender}</p>
             <p>Estado: {personaje?.status}</p>
             <p>Especie: {personaje?.species}</p>
